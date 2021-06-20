@@ -1,0 +1,25 @@
+$primaryBtn : #c40fdb;
+$primaryColor : white;
+$borderRadius: 5px;
+$buttonMargin: 1rem;
+
+@import "./imgs";
+@import "./navbar";
+@import "./cards";
+
+.form-container{
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+.btn{
+    background-color: $primaryBtn;
+    color: $primaryColor;
+    margin-right: $buttonMargin;
+    border-radius: $borderRadius;
+    -webkit-appearance: media-volume-slider;
+    
+    &::hover{
+         background-color: $primaryColor;
+         color: $primaryBtn;
+    }
+}

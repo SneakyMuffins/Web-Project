@@ -1,0 +1,21 @@
+.img1{
+filter: invert(59%) sepia(83%) saturate(611%) hue-rotate(6deg) brightness(102%) contrast(103%);
+}
+    
+.img2{
+filter: invert(38%) sepia(85%) saturate(1279%) hue-rotate(203deg) brightness(102%) contrast(91%);
+}
+        
+.img3{
+filter: invert(62%) sepia(84%) saturate(5710%) hue-rotate(128deg) brightness(91%) contrast(88%);
+}
+            
+.img{
+ width: 100px;
+ margin: 20px auto -30px;
+ display: block;
+ position: relative;
+ top: -16px;
+ left: 4px;
+ border-radius: $borderRadius;
+}    
